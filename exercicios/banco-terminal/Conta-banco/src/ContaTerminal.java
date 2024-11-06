@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class ContaTerminal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,7 +14,6 @@ public class ContaTerminal {
 
         System.out.print("Por favor, digite o número da conta: ");
         numero = scanner.nextInt();
-
 
         scanner.nextLine(); // Consumir a quebra de linha pendente
 
